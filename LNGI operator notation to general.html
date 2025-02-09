@@ -3,7 +3,7 @@
 <body>
 Running: <input type="checkbox" id="numberRunning" checked></input>
 <button onclick="func1()">Reset to 0</button>
-<button onclick="func2()">x2 Speed</button>
+<button onclick="func2()">x100 Speed</button>
 <button onclick="func3()">/2 Speed</button>
 <button onclick="func4()">Increase precision</button>
 <button onclick="func5()">Decrease precision</button>
@@ -200,7 +200,7 @@ function displayNumber() {
 			finalNumber = convertToLAN(evaluateLinArray(linArrayEntries(2+Math.max(((t-10000000-tReduce)/50000000),0)**0.9)));
 		}
 	} else {
-		finalNumber = "10{{{{{{{{{{10}}}}}}}}}}10 (limit)"
+		finalNumber = "10{[10]}10 (limit)"
 
 	}
 	if (document.getElementById("numberRunning").checked) {
